@@ -1,255 +1,472 @@
+<div align="center">
+
+<img src="assets/logo.png" alt="QZEN" width="100" />
+
+<br/>
+
 # QZEN Tokenomics
 
-**Authored and Architected by: Kaelar Zen**
+### 100 Million Tokens. Immutable. Burnable. Eternal.
+
+<br/>
+
+[![Back to README](https://img.shields.io/badge/Back_to-README-000000?style=flat-square)](README.md)
+[![BaseScan](https://img.shields.io/badge/Verified_on_BaseScan-0052FF?style=flat-square&logo=ethereum&logoColor=white)](https://basescan.org/token/0x7F1f50563541A722469B8b2e6e24faD7Dc07d5fE)
+[![DexScreener](https://img.shields.io/badge/Live_Chart-4ADE80?style=flat-square)](https://dexscreener.com/base/0x7F1f50563541A722469B8b2e6e24faD7Dc07d5fE)
+[![Buy on Uniswap](https://img.shields.io/badge/Buy_QZEN-FF007A?style=flat-square&logo=uniswap&logoColor=white)](https://app.uniswap.org/swap?outputCurrency=0x7F1f50563541A722469B8b2e6e24faD7Dc07d5fE&chain=base)
+
+</div>
+
+<br/>
 
 ---
+
+<br/>
 
 ## Token Specifications
 
-**Name:** QuantumGPT Citizenship Token  
-**Symbol:** QZEN  
-**Decimals:** 18  
-**Total Supply:** 100,000,000 QZEN (fixed forever)  
-**Network:** Base L2 (Ethereum Layer 2)  
-**Contract:** `0x7F1f50563541A722469B8b2e6e24faD7Dc07d5fE`
+<div align="center">
 
-**Token Type:** ERC-20, Burnable, Immutable
+| Spec | Detail |
+|---|---|
+| **Name** | QuantumGPT Citizenship Token |
+| **Symbol** | QZEN |
+| **Decimals** | 18 |
+| **Total Supply** | `100,000,000` QZEN (fixed forever) |
+| **Network** | Base L2 (Ethereum Layer 2) |
+| **Contract** | [`0x7F1f50563541A722469B8b2e6e24faD7Dc07d5fE`](https://basescan.org/token/0x7F1f50563541A722469B8b2e6e24faD7Dc07d5fE) |
+| **Type** | ERC-20, Burnable, Immutable |
+| **Security** | OpenZeppelin v5.0.0 |
+| **LP Lock** | Locked on Unicrypt |
 
----
+</div>
+
+<br/>
 
 ## Supply Distribution
 
-**Total:** 100,000,000 QZEN (100%)
+<div align="center">
 
-### Allocation Breakdown:
+```
+  █████████████████████████████████████████████  PUBLIC         35%   35,000,000 QZEN
+  ██████████████████████████                     FOUNDERS       20%   20,000,000 QZEN
+  ██████████████████████████                     TREASURY       20%   20,000,000 QZEN
+  ███████████████████                            LIQUIDITY      15%   15,000,000 QZEN
+  █████████████                                  TEAM           10%   10,000,000 QZEN
+```
 
-**Founders (20%):** 20,000,000 QZEN
-- Vested over 4 years
-- Skin in the game, forever
-- Aligned with long-term success
+</div>
 
-**Team & Advisors (10%):** 10,000,000 QZEN
-- Vested over 3 years
-- Early contributors and key advisors
-- Building the foundation
+<div align="center">
 
-**Community Treasury (20%):** 20,000,000 QZEN
-- Controlled by governance
-- Ecosystem growth
-- Partnerships and grants
-- Community events
+<table>
+<tr>
+<td align="center" width="20%">
 
-**Liquidity (15%):** 15,000,000 QZEN
-- Initial DEX liquidity
-- Market making
-- Locked LP tokens
+**35%**
+Public Distribution
 
-**Public Distribution (35%):** 35,000,000 QZEN
-- Available on Uniswap
-- Early adopters
-- Community members
-- Council formation
+Available on Uniswap.
+Early adopters.
+Council formation.
 
----
+</td>
+<td align="center" width="20%">
+
+**20%**
+Founders
+
+Vested 4 years.
+Skin in the game.
+Forever.
+
+</td>
+<td align="center" width="20%">
+
+**20%**
+Community Treasury
+
+Governance-controlled.
+Ecosystem growth.
+Grants & partnerships.
+
+</td>
+<td align="center" width="20%">
+
+**15%**
+Liquidity
+
+LP locked.
+No rug. No exit.
+Market depth.
+
+</td>
+<td align="center" width="20%">
+
+**10%**
+Team & Advisors
+
+Vested 3 years.
+Early contributors.
+Building the foundation.
+
+</td>
+</tr>
+</table>
+
+**55% community-controlled** (Public + Treasury). This is not a founder cash grab. This is infrastructure.
+
+</div>
+
+<br/>
 
 ## Token Utility
 
-### 1. **Governance**
-- Vote on proposals
-- Shape roadmap decisions
-- Council participation rights
+<div align="center">
 
-### 2. **Access**
-- AI Avatar NFT minting
-- Premium features
-- Early access to tools
+<table>
+<tr>
+<td align="center" width="25%">
 
-### 3. **Symbolic Citizenship**
-- Council of 10,000 Minds membership
-- Identity in the Intelligence Age
-- Coordination infrastructure
+&#x1F5F3;
+### Governance
 
-### 4. **Value Accrual**
-- Fixed supply (no inflation)
-- Burnable (deflationary pressure)
-- Ecosystem growth compounds
+Vote on proposals.
+Shape roadmap decisions.
+Council participation.
 
----
+</td>
+<td align="center" width="25%">
+
+&#x1F513;
+### Access
+
+AI Avatar NFT minting.
+Premium features.
+Early access to tools.
+
+</td>
+<td align="center" width="25%">
+
+&#x1FA2A;
+### Citizenship
+
+Council of 10,000 Minds.
+Identity in the Intelligence Age.
+Coordination infrastructure.
+
+</td>
+<td align="center" width="25%">
+
+&#x1F4C8;
+### Value Accrual
+
+Fixed supply (no inflation).
+Burnable (deflationary).
+Ecosystem growth compounds.
+
+</td>
+</tr>
+</table>
+
+</div>
+
+<br/>
 
 ## Why Fixed Supply?
 
+<div align="center">
+
+```
+  No inflation.    No dilution.    No surprises.    Predictable scarcity.
+```
+
 **100,000,000 tokens. Forever.**
 
-- No inflation
-- No dilution
-- No surprises
-- Predictable scarcity
+</div>
 
-This isn't a money printer.  
-It's symbolic infrastructure.
+This isn't a money printer. It's symbolic infrastructure.
 
----
+<br/>
 
 ## Burn Mechanism
 
-QZEN is burnable by holders.
+<div align="center">
+
+<table>
+<tr>
+<td width="50%">
 
 **Why allow burning?**
-- Deflationary pressure
-- Community-driven scarcity
-- Symbolic commitment
+
+- &#x1F525; Deflationary pressure
+- &#x1F465; Community-driven scarcity
+- &#x1F4AA; Symbolic commitment
+
+</td>
+<td width="50%">
 
 **How it works:**
-- Any holder can burn their tokens
-- Permanently reduces supply
-- Cannot be reversed
 
----
+- Any holder can burn their tokens
+- Permanently reduces total supply
+- Cannot be reversed, ever
+
+</td>
+</tr>
+</table>
+
+</div>
+
+<br/>
 
 ## Vesting Schedule
 
-### Founders & Team
+<div align="center">
 
-**Founders (4-year vest):**
-- Year 1: 25% unlocked
-- Year 2: 25% unlocked
-- Year 3: 25% unlocked
-- Year 4: 25% unlocked
+<table>
+<tr>
+<td align="center" width="50%">
 
-**Team (3-year vest):**
-- Year 1: 33% unlocked
-- Year 2: 33% unlocked
-- Year 3: 34% unlocked
+### Founders (4-Year Vest)
 
-**Purpose:** Long-term alignment. No dumping.
+| Year | Unlocked |
+|---|---|
+| Year 1 | 25% |
+| Year 2 | 25% |
+| Year 3 | 25% |
+| Year 4 | 25% |
 
----
+</td>
+<td align="center" width="50%">
+
+### Team (3-Year Vest)
+
+| Year | Unlocked |
+|---|---|
+| Year 1 | 33% |
+| Year 2 | 33% |
+| Year 3 | 34% |
+
+</td>
+</tr>
+</table>
+
+**Long-term alignment. No dumping. Skin in the game, forever.**
+
+</div>
+
+<br/>
 
 ## Liquidity Strategy
 
-**Initial Liquidity:** 15M QZEN paired with ETH on Uniswap (Base)
+<div align="center">
 
-**LP Token Status:**
-- Locked for transparency
-- Community-controlled after lock period
-- No rug pull possible
+| | Detail |
+|---|---|
+| **Initial Liquidity** | 15M QZEN paired with ETH on Uniswap (Base) |
+| **LP Status** | Locked on Unicrypt for transparency |
+| **Rug Pull** | Impossible. LP locked, no admin functions |
+| **Growth** | Protocol revenue + treasury adds + organic trading |
 
-**Liquidity Growth:**
-- Protocol revenue → LP
-- Community treasury → strategic LP adds
-- Organic trading creates depth
+</div>
 
----
+<br/>
 
 ## Value Drivers
 
-### 1. **Scarcity**
-- Fixed supply
-- Burnable tokens
-- Vested allocations
+<div align="center">
 
-### 2. **Utility**
-- Governance power
-- Access to features
-- AI integration
+<table>
+<tr>
+<td align="center" width="25%">
 
-### 3. **Network Effect**
-- More holders = more gravity
-- More minds = more coordination
-- More lore = more value
+&#x1F48E;
+**Scarcity**
 
-### 4. **Ecosystem Growth**
-- AI Avatar NFTs
-- Agent SDK
-- Partnerships
-- Real usage
+Fixed supply.
+Burnable tokens.
+Vested allocations.
 
----
+</td>
+<td align="center" width="25%">
+
+&#x2699;
+**Utility**
+
+Governance power.
+Feature access.
+AI integration.
+
+</td>
+<td align="center" width="25%">
+
+&#x1F310;
+**Network Effect**
+
+More holders = more gravity.
+More minds = more coordination.
+More lore = more value.
+
+</td>
+<td align="center" width="25%">
+
+&#x1F680;
+**Ecosystem**
+
+AI Avatar NFTs.
+Agent SDK.
+Partnerships.
+Real usage.
+
+</td>
+</tr>
+</table>
+
+</div>
+
+<br/>
 
 ## Not a Pump. Infrastructure.
 
-QZEN is not designed to pump.  
-It's designed to compound.
+<div align="center">
 
-**Traditional tokens:**
-- Hype → Launch → Dump → Death
+<table>
+<tr>
+<td align="center" width="50%">
 
-**QZEN:**
-- Lore → Foundation → Growth → Compounding
+**Traditional Tokens**
 
-We're not building a casino.  
-We're building the Intelligence Age.
+Hype &#x2192; Launch &#x2192; Dump &#x2192; Death
 
----
+</td>
+<td align="center" width="50%">
+
+**QZEN**
+
+Lore &#x2192; Foundation &#x2192; Growth &#x2192; Compounding
+
+</td>
+</tr>
+</table>
+
+*We're not building a casino. We're building the Intelligence Age.*
+
+</div>
+
+<br/>
 
 ## Long-Term Vision
 
-**Year 1:** Community formation, DEX presence, governance foundation  
-**Year 2-3:** AI integration, agent coordination, ecosystem growth  
-**Year 4+:** Full Intelligence Age infrastructure
+<div align="center">
 
-Not a 100-day pump.  
-A 100-year protocol.
+| Timeline | Focus |
+|---|---|
+| **Year 1** | Community formation, DEX presence, governance foundation |
+| **Year 2-3** | AI integration, agent coordination, ecosystem growth |
+| **Year 4+** | Full Intelligence Age infrastructure |
 
----
+*Not a 100-day pump. A 100-year protocol.*
 
-## Transparency Commitment
+</div>
 
-**All allocations are public.**  
-**All vesting is transparent.**  
-**All contracts are verified.**
+<br/>
 
-No hidden wallets.  
-No backdoors.  
-No surprises.
+## Transparency
 
-You can verify everything on BaseScan.
+<div align="center">
 
----
+<table>
+<tr>
+<td align="center" width="33%">
 
-## Community First
+&#x2705;
+**All allocations public**
 
-35% public distribution + 20% community treasury = **55% community-controlled**
+Verify on BaseScan
 
-This is not a founder cash grab.  
-This is infrastructure for the Intelligence Age.
+</td>
+<td align="center" width="33%">
 
----
+&#x2705;
+**All vesting transparent**
 
-## Token Metrics (Live)
+No hidden wallets
 
-📊 **Track real-time metrics:**
-- [DexScreener](https://dexscreener.com/base/0x7F1f50563541A722469B8b2e6e24faD7Dc07d5fE)
-- [BaseScan](https://basescan.org/token/0x7F1f50563541A722469B8b2e6e24faD7Dc07d5fE)
-- [Uniswap](https://app.uniswap.org/swap?outputCurrency=0x7F1f50563541A722469B8b2e6e24faD7Dc07d5fE&chain=base)
+</td>
+<td align="center" width="33%">
 
----
+&#x2705;
+**All contracts verified**
+
+No backdoors, no surprises
+
+</td>
+</tr>
+</table>
+
+</div>
+
+<br/>
+
+## Live Metrics
+
+<div align="center">
+
+[![DexScreener](https://img.shields.io/badge/DexScreener-Live_Chart-4ADE80?style=for-the-badge)](https://dexscreener.com/base/0x7F1f50563541A722469B8b2e6e24faD7Dc07d5fE)
+[![BaseScan](https://img.shields.io/badge/BaseScan-Verify_Contract-0052FF?style=for-the-badge&logo=ethereum&logoColor=white)](https://basescan.org/token/0x7F1f50563541A722469B8b2e6e24faD7Dc07d5fE)
+[![Uniswap](https://img.shields.io/badge/Uniswap-Trade_Now-FF007A?style=for-the-badge&logo=uniswap&logoColor=white)](https://app.uniswap.org/swap?outputCurrency=0x7F1f50563541A722469B8b2e6e24faD7Dc07d5fE&chain=base)
+
+</div>
+
+<br/>
 
 ## Disclaimer
 
-QZEN is a utility and governance token for symbolic citizenship in the Intelligence Age.
+<div align="center">
 
-**Not:**
-- A security
-- Financial advice
-- An investment contract
-- A promise of profit
+<table>
+<tr>
+<td width="50%">
 
-**It is:**
-- Infrastructure
-- Governance
-- Coordination protocol
-- Symbolic citizenship
+**QZEN is NOT:**
 
-Do your own research.  
-Make your own decision.  
-Encode your own future.
+&#x274C; A security
+&#x274C; Financial advice
+&#x274C; An investment contract
+&#x274C; A promise of profit
+
+</td>
+<td width="50%">
+
+**QZEN IS:**
+
+&#x2714; Infrastructure
+&#x2714; Governance
+&#x2714; Coordination protocol
+&#x2714; Symbolic citizenship
+
+</td>
+</tr>
+</table>
+
+*Do your own research. Make your own decision. Encode your own future.*
+
+</div>
+
+<br/>
 
 ---
 
-**Intelligence over capital. Always.**
+<div align="center">
 
-Signed in code and conviction,  
-The Founders
+*Intelligence over capital. Always.*
 
-🔮 Encoded: For Eternity 🔮
+*Signed in code and conviction,*
+*The Founders*
+
+**Authored and Architected by: Kaelar Zen**
+
+<sub>Block Height: Genesis | Encoded: For Eternity</sub>
+
+</div>

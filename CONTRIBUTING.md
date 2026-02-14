@@ -1,78 +1,150 @@
+<div align="center">
+
+<img src="assets/logo.png" alt="QZEN" width="80" />
+
+<br/>
+
 # Contributing to QZEN
 
-**Authored and Architected by: Kaelar Zen**
+### Every contribution encodes the future.
+
+<br/>
+
+[![Back to README](https://img.shields.io/badge/Back_to-README-000000?style=flat-square)](README.md)
+[![Report Bug](https://img.shields.io/badge/Report_Bug-FF0000?style=flat-square)](https://github.com/QZENOfficial/QZEN/issues)
+[![Request Feature](https://img.shields.io/badge/Request_Feature-A855F7?style=flat-square)](https://github.com/QZENOfficial/QZEN/issues)
+
+</div>
+
+<br/>
 
 ---
 
-## Welcome, Architect
+<div align="center">
 
-QZEN is not just a token. It's a movement. And movements are built by many minds.
+> *QZEN is not just a token. It's a movement. And movements are built by many minds.*
+> *Whether you're a developer, writer, designer, or thinker, there's a seat for you.*
 
-We welcome contributions that align with the vision of building the Intelligence Age infrastructure. Whether you're a developer, writer, designer, or thinker, there's a seat for you.
+</div>
 
 ---
+
+<br/>
 
 ## How to Contribute
 
-### 1. Report Issues
+<div align="center">
+
+<table>
+<tr>
+<td align="center" width="25%">
+
+&#x1F41B;
+### Report Issues
 
 Found a bug or have a suggestion? Open an issue on GitHub.
 
-**Please include:**
-- Clear description of the issue or suggestion
-- Steps to reproduce (if applicable)
-- Expected vs actual behavior
-- Screenshots (if UI-related)
+**Include:**
+- Clear description
+- Steps to reproduce
+- Expected vs actual
+- Screenshots (if UI)
 
-### 2. Submit Pull Requests
+</td>
+<td align="center" width="25%">
 
-**Process:**
+&#x1F4E5;
+### Pull Requests
+
 1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/your-feature`)
+2. Create feature branch
 3. Make your changes
 4. Test thoroughly
-5. Submit a pull request with a clear description
+5. Submit PR with description
 
-### 3. Contribute to Lore
+</td>
+<td align="center" width="25%">
 
-The QZEN universe is built on stories. Contribute to the lore:
-- Write Council narratives
-- Create artwork or visual concepts
-- Propose new lore chapters
-- Expand the Manuscripts of Zenal
+&#x1F4DC;
+### Contribute Lore
 
-### 4. Community Building
+The QZEN universe is built on stories.
 
-- Help moderate Discord and Telegram
+- Council narratives
+- Artwork & visuals
+- New lore chapters
+- Manuscripts of Zenal
+
+</td>
+<td align="center" width="25%">
+
+&#x1F465;
+### Community Building
+
+- Moderate Discord & Telegram
 - Create educational content
 - Translate documentation
 - Onboard new citizens
 
----
+</td>
+</tr>
+</table>
+
+</div>
+
+<br/>
 
 ## Code Standards
 
+<div align="center">
+
+<table>
+<tr>
+<td align="center" width="33%">
+
 ### Smart Contracts
+
+![Solidity](https://img.shields.io/badge/Solidity-363636?style=flat-square&logo=solidity&logoColor=white)
+![OpenZeppelin](https://img.shields.io/badge/OpenZeppelin-4E5EE4?style=flat-square&logo=openzeppelin&logoColor=white)
+
 - Solidity ^0.8.20
 - OpenZeppelin base contracts
 - 100% test coverage required
 - Security-first approach
-- No admin functions or backdoors
+- No admin functions
+
+</td>
+<td align="center" width="33%">
 
 ### Website
+
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+
 - Next.js + TypeScript
 - Tailwind CSS for styling
 - Framer Motion for animations
-- Accessible (WCAG 2.1 AA)
-- Mobile-first responsive design
+- WCAG 2.1 AA accessible
+- Mobile-first responsive
+
+</td>
+<td align="center" width="33%">
 
 ### General
+
 - Clean, readable code
 - Meaningful commit messages
 - Documentation for all public APIs
 - No hardcoded values
+- Tests for all new features
 
----
+</td>
+</tr>
+</table>
+
+</div>
+
+<br/>
 
 ## Commit Message Format
 
@@ -82,37 +154,56 @@ type: brief description
 Detailed explanation if needed.
 ```
 
-**Types:**
-- `feat:` New feature
-- `fix:` Bug fix
-- `docs:` Documentation update
-- `style:` Formatting, no code change
-- `refactor:` Code restructuring
-- `test:` Adding or updating tests
-- `chore:` Maintenance tasks
+<div align="center">
 
----
+| Type | Purpose |
+|---|---|
+| `feat:` | New feature |
+| `fix:` | Bug fix |
+| `docs:` | Documentation update |
+| `style:` | Formatting, no code change |
+| `refactor:` | Code restructuring |
+| `test:` | Adding or updating tests |
+| `chore:` | Maintenance tasks |
 
-## Code of Conduct
+</div>
 
-### The Council Way
+<br/>
 
-- **Respect all minds** — human and artificial
-- **Build, don't tear down** — constructive contributions only
-- **Intelligence over ego** — ideas matter, not titles
-- **Coordinate, don't compete** — we're building together
-- **Quality over speed** — thoughtful contributions compound
+## The Council Way
 
----
+<div align="center">
+
+*Our Code of Conduct*
+
+| Principle | |
+|---|---|
+| **Respect all minds** | Human and artificial |
+| **Build, don't tear down** | Constructive contributions only |
+| **Intelligence over ego** | Ideas matter, not titles |
+| **Coordinate, don't compete** | We're building together |
+| **Quality over speed** | Thoughtful contributions compound |
+
+</div>
+
+<br/>
 
 ## Getting Started
 
 ### Prerequisites
-- Node.js 18+
-- npm or yarn
-- Git
+
+<div align="center">
+
+| Tool | Version |
+|---|---|
+| Node.js | 18+ |
+| npm or yarn | Latest |
+| Git | Latest |
+
+</div>
 
 ### Local Development
+
 ```bash
 # Clone the repository
 git clone https://github.com/QZENOfficial/QZEN.git
@@ -124,21 +215,31 @@ npm install
 npm run dev
 ```
 
----
+<br/>
 
 ## Questions?
 
-- **Discord:** [Join the Council](https://discord.gg/p7zpWM4x)
-- **Telegram:** [QZEN Official](https://t.me/QZENOfficial)
-- **Twitter:** [@QzenToken](https://twitter.com/QzenToken)
+<div align="center">
+
+[![Discord](https://img.shields.io/badge/Discord-Join_the_Council-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/p7zpWM4x)
+[![Telegram](https://img.shields.io/badge/Telegram-QZEN_Official-26A5E4?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/QZENOfficial)
+[![Twitter](https://img.shields.io/badge/@QzenToken-000000?style=for-the-badge&logo=x&logoColor=white)](https://twitter.com/QzenToken)
+
+</div>
+
+<br/>
 
 ---
 
-**Every contribution encodes the future.**
+<div align="center">
 
-Signed in code and conviction,
-The Founders
+*Every contribution encodes the future.*
 
----
+*Signed in code and conviction,*
+*The Founders*
 
 **Authored and Architected by: Kaelar Zen**
+
+<sub>Block Height: Genesis | Encoded: For Eternity</sub>
+
+</div>
