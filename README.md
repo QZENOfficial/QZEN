@@ -4,6 +4,12 @@
 [![Twitter](https://img.shields.io/badge/Twitter-@QzenToken-1DA1F2)](https://twitter.com/QzenToken)
 [![Discord](https://img.shields.io/badge/Discord-Join-7289DA)](https://discord.gg/p7zpWM4x)
 [![Telegram](https://img.shields.io/badge/Telegram-Join-26A5E4)](https://t.me/QZENOfficial)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![Base L2](https://img.shields.io/badge/Chain-Base_L2-0052FF)](https://basescan.org/token/0x7F1f50563541A722469B8b2e6e24faD7Dc07d5fE)
+
+---
+
+> **Latest:** Governance framework published. Phase 2 Council coordination in progress. [See Changelog](CHANGELOG.md)
 
 ---
 
@@ -82,16 +88,18 @@ Every upgrade deepens meaning.
 ## Repository Structure
 
 ```
-QZEN05_Public/
+QZEN/
 ├── README.md              # This file
-├── VISION.md             # Philosophy and manifesto
-├── TOKENOMICS.md         # Token distribution
-├── CHANGELOG.md          # Development updates
-├── contracts/            # Smart contract source
-│   ├── QZENToken.sol    # ERC-20 token contract
-│   └── README.md        # Contract documentation
-├── website/              # Next.js website source
-└── docs/                # Additional documentation
+├── VISION.md              # Philosophy and manifesto
+├── TOKENOMICS.md          # Token distribution
+├── CHANGELOG.md           # Development updates
+├── CONTRIBUTING.md        # How to contribute
+├── contracts/             # Smart contract source
+│   ├── QZENToken.sol      # ERC-20 token contract
+│   └── README.md          # Contract documentation
+├── docs/                  # Additional documentation
+│   └── GOVERNANCE.md      # Governance framework
+└── website/               # Next.js website source
 ```
 
 ---
