@@ -6,6 +6,37 @@ All notable changes and updates to the QZEN project will be documented here.
 
 ---
 
+## [1.1.0] - February 14, 2026
+
+### 🏛️ Governance
+
+- Published governance framework for Phase 2 Council coordination
+- Defined proposal lifecycle: Draft → Discussion → Voting → Execution → Lore Archive
+- Outlined Council roles: Citizens, Architects, Stewards
+- Treasury management guidelines documented
+- Snapshot-style voting mechanism specified
+
+### 📝 Documentation
+
+- Added contributing guidelines for community participation
+- Governance framework documentation (docs/GOVERNANCE.md)
+- Repository structure improvements
+
+### 🌐 Website Updates
+
+- Ongoing performance optimizations at qzen.dev
+- SEO and metadata improvements
+- Community feedback integration
+
+### 🎯 In Progress
+
+- Snapshot space setup for governance voting
+- CoinGecko listing application
+- Community growth initiatives
+- Bot infrastructure planning (Telegram, Twitter)
+
+---
+
 ## [1.0.0] - January 31, 2026
 
 ### 🚀 Launch
