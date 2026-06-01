@@ -27,14 +27,17 @@ import "@openzeppelin/contracts/token/ERC20/extensions/ERC20Burnable.sol";
  * - No upgradeability
  * - Immutable and decentralized
  * 
- * Distribution:
- * - Liquidity: 5% (5M tokens)
- * - Treasury: 30% (30M tokens)
- * - Team: 15% (15M tokens)
- * - Community: 27% (27M tokens)
- * - Marketing: 10% (10M tokens)
- * - Strategic: 10% (10M tokens)
- * - Founder: 3% (3M tokens)
+ * Distribution (Phase 2 — applied post-genesis):
+ * - Treasury:  30% (30,000,000 QZEN)
+ * - Community: 24% (24,000,000 QZEN)
+ * - Team:      15% (15,000,000 QZEN)
+ * - Marketing: 10% (10,000,000 QZEN)
+ * - Strategic: 10% (10,000,000 QZEN)
+ * - Founder:    6%  (6,000,000 QZEN)
+ * - Liquidity:  5%  (5,000,000 QZEN)
+ *
+ * Deployment: Base L2 Mainnet — December 3, 2025
+ * Verified:   https://basescan.org/token/0x7F1f50563541A722469B8b2e6e24faD7Dc07d5fE
  */
 contract QZENToken is ERC20, ERC20Burnable {
     
