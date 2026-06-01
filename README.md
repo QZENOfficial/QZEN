@@ -18,9 +18,9 @@
 <br/>
 
 [![Twitter](https://img.shields.io/badge/@QzenToken-000000?style=flat-square&logo=x&logoColor=white)](https://twitter.com/QzenToken)
-[![Discord](https://img.shields.io/badge/Discord-5865F2?style=flat-square&logo=discord&logoColor=white)](https://discord.gg/p7zpWM4x)
+[![Discord](https://img.shields.io/badge/Discord-5865F2?style=flat-square&logo=discord&logoColor=white)](https://discord.gg/NVRWQHNr)
 [![Telegram](https://img.shields.io/badge/Telegram-26A5E4?style=flat-square&logo=telegram&logoColor=white)](https://t.me/QZENOfficial)
-[![BaseScan](https://img.shields.io/badge/Verified_on_BaseScan-0052FF?style=flat-square&logo=ethereum&logoColor=white)](https://basescan.org/token/0x7F1f50563541A722469B8b2e6e24faD7Dc07d5fE)
+[![BaseScan](https://img.shields.io/badge/✓_Verified_on_BaseScan-0052FF?style=flat-square&logo=ethereum&logoColor=white)](https://basescan.org/token/0x7F1f50563541A722469B8b2e6e24faD7Dc07d5fE#code)
 [![License: MIT](https://img.shields.io/badge/License-MIT-A855F7?style=flat-square)](LICENSE)
 
 </div>
@@ -320,7 +320,7 @@ Every share is myth-making.
 </td>
 <td align="center" width="25%">
 
-[![Discord](https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/p7zpWM4x)
+[![Discord](https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/NVRWQHNr)
 
 **The Council Chamber**
 
