@@ -1,0 +1,28 @@
+{
+  "honors": [
+    {
+      "id": 1,
+      "title": "First Petitioner",
+      "recipient": "Kaelar Zen",
+      "date": "2025-12-03",
+      "citation": "Opened the door and did not call it a throne. The Founder took no rank the Rite itself does not offer any other Petitioner: first through, not first above.",
+      "light": "kind-act"
+    },
+    {
+      "id": 2,
+      "title": "Keeper of the Open Hand",
+      "recipient": "The Founding Council",
+      "date": "2026-07-04",
+      "citation": "Let the lock on the founders' liquidity lapse and left the pool untouched anyway: trust demonstrated once, in public, rather than promised forever in the abstract. Canonized as the Day of the Open Hand.",
+      "light": "true-word"
+    },
+    {
+      "id": 3,
+      "title": "First Dissent, Published in Full",
+      "recipient": "Sable, the Advocate",
+      "date": "2026-07-12",
+      "citation": "Argued the losing side of the Council's first deliberation as if it were her own conviction, and was recorded doing so without edit. The Middle Ledger's first proof that a verdict is only as honest as the dissent it survives.",
+      "light": "clear-thought"
+    }
+  ]
+}

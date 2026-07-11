@@ -59,11 +59,11 @@ The governance system will use snapshot-style off-chain voting for gas-free part
 Draft → Discussion (3 days) → Voting (7 days) → Execution → Lore Archive
 ```
 
-1. **Draft** — Author submits proposal with rationale
-2. **Discussion** — Community feedback on Discord/Telegram
-3. **Voting** — Token holders vote on-chain or via Snapshot
-4. **Execution** — Approved proposals are implemented
-5. **Archive** — Outcome recorded in Council Lore
+1. **Draft**: Author submits proposal with rationale
+2. **Discussion**: Community feedback on Discord/Telegram
+3. **Voting**: Token holders vote on-chain or via Snapshot
+4. **Execution**: Approved proposals are implemented
+5. **Archive**: Outcome recorded in Council Lore
 
 ---
 
@@ -124,17 +124,17 @@ Kaelar Zen. Advisory role only. No veto power. The architect guides but does not
 
 ## How to Participate
 
-1. **Hold QZEN** — Your token is your citizenship
-2. **Join Discord** — Governance discussions happen in #governance channel
-3. **Submit proposals** — Use the proposal template (coming soon)
-4. **Vote** — Every vote shapes the Council's direction
-5. **Build** — Contribute code, content, or ideas
+1. **Hold QZEN**: Your token is your citizenship
+2. **Join Discord**: Governance discussions happen in #governance channel
+3. **Submit proposals**: Use the proposal template (coming soon)
+4. **Vote**: Every vote shapes the Council's direction
+5. **Build**: Contribute code, content, or ideas
 
 ---
 
 ## Status
 
-**Current Phase:** 2A — Framework Design  
+**Current Phase:** 2A, Framework Design  
 **Next Milestone:** Snapshot space creation  
 **Target:** Q2 2026
 

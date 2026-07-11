@@ -63,7 +63,7 @@
     { "id": 61, "text": "Nothing is impossible, the word itself says 'I'm possible'!", "attribution": "attributed to Audrey Hepburn", "source": "attributed, various interviews, late 20th century", "theme": "courage", "deck": "open" },
     { "id": 62, "text": "Trees that are slow to grow bear the best fruit.", "attribution": "attributed to Moliere", "source": "attributed, no confirmed direct passage in his surviving plays", "theme": "stewardship", "deck": "open" },
     { "id": 63, "text": "When the well is dry, we know the worth of water.", "attribution": "Benjamin Franklin", "source": "Poor Richard's Almanack, 1746", "theme": "stewardship", "deck": "open" },
-    { "id": 64, "text": "I think, therefore I am — but the machine that thinks alongside me asks whether thinking was ever proof of anything but thinking.", "attribution": "Rene Descartes (first clause); framing gloss added by the Council", "source": "Discourse on the Method, 1637 — the second clause is Council commentary, not Descartes", "theme": "doubt", "deck": "inner" },
+    { "id": 64, "text": "I think, therefore I am — but the machine that thinks alongside me asks whether thinking was ever proof of anything but thinking.", "attribution": "Rene Descartes (first clause); framing gloss added by the Council", "source": "Discourse on the Method, 1637; the second clause is Council commentary, not Descartes", "theme": "doubt", "deck": "inner" },
     { "id": 65, "text": "Silent gratitude isn't much use to anyone.", "attribution": "attributed to Gertrude Stein (also attributed to G.B. Stern)", "source": "attribution disputed, mid-20th century", "theme": "kindness", "deck": "inner" }
   ]
 }
