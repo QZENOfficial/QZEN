@@ -19,7 +19,7 @@ Nothing is scripted to reach a predetermined verdict, and dissents are preserved
 ## The pieces you can inspect
 
 1. **The persona definitions.** Every Mind's identity, philosophical stance, and voice is
-   defined in `data/minds.json` in this repository. The Skeptic (Sable) is required by
+   defined in `website/data/minds.json` in this repository. The Skeptic (Sable) is required by
    doctrine to hunt for the weakest link in any verdict; the Empty Seat abstains in every
    vote, permanently.
 
@@ -30,9 +30,13 @@ Nothing is scripted to reach a predetermined verdict, and dissents are preserved
    promises, dissent always published).
 
 3. **The raw transcripts.** Every published deliberation is a JSON file in
-   `data/deliberations/` in this repository: the same files the website renders, with no
-   hidden edits. The four founding-session deliberations are dated 2026-07-11, the day
-   they were actually generated.
+   `website/data/deliberations/` in this repository: byte for byte the same files the website
+   renders, with no hidden edits. If the site shows a verdict this folder does not contain, that
+   is a bug and you should say so.
+
+   As of 2026-08-16 there are twenty. The four founding-session deliberations are dated
+   2026-07-11, the day they were actually generated; the rest were written in sessions on
+   2026-08-16. The live count is always at https://qzen.dev/verdicts.json .
 
 ## The generation process, step by step
 
