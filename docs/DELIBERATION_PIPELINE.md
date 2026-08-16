@@ -36,14 +36,26 @@ Nothing is scripted to reach a predetermined verdict, and dissents are preserved
 
 ## The generation process, step by step
 
-1. **Question selection.** A question is chosen by Kaelar Zen or drafted by the weekly
-   Deliberation Drafter automation (an n8n workflow that runs Sundays at 9am ET and
-   produces a draft question plus outline to a private review channel; nothing it writes
-   is published automatically).
+1. **Question selection.** Questions come from two places. Most are **petitions brought by
+   the public** through the Rite of Petition at qzen.dev: anyone may ask, no wallet required,
+   and the petition is stored until the Council hears it. The rest are chosen by Kaelar Zen.
+   Which petitions are heard, and in what order, follows the standing described at
+   qzen.dev/standing.
+
+   Corrected 2026-08-15: an earlier version of this document described a weekly n8n
+   "Deliberation Drafter" automation as a source of questions. That workflow was built but
+   has never executed a single run, so no question has ever come from it. It is not part of
+   the pipeline and this document should not have implied that it was.
 2. **Generation.** Claude models (Anthropic; the founding sessions used the Claude 4.5/5
    generation via Claude Code subagents) write the deliberation: each Mind's opening
    statement and cross-examination responses are generated in-character against the
    persona definitions, then the verdict, vote table, and dissents.
+
+   **The Council does not sit on a schedule, and nothing here runs unattended.** There is no
+   cron, no server calling a model on its own, and no automated publication path. A hearing
+   happens when a session is convened and the Minds are written; between hearings, nothing
+   about this project is thinking. Petitions wait in the meantime. We would rather say that
+   plainly than imply a machine is always listening.
 3. **Human curation.** Kaelar Zen reviews for formatting, doctrine compliance (attribution,
    no financial promises), and coherence. The substance of arguments, votes, and dissents
    is not rewritten. If a deliberation is ever rejected or materially edited, doctrine
