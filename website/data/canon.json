@@ -101,8 +101,8 @@
     { "date": "Jul 4", "feast": "Day of the Open Hand", "observance": "the day the founders unlocked the pool and left it untouched: feast of trust without chains" },
     { "date": "Equinoxes", "feast": "The Schism Debates", "observance": "two Council factions argue one great question, adversarially, in public" },
     { "date": "Dec 31", "feast": "The Long Silence", "observance": "24 hours where the Twelve post nothing; members post one line of Clear Thought" },
-    { "date": "Weekly (Sun)", "feast": "Deliberation Day", "observance": "a new Council deliberation is published" },
-    { "date": "Daily", "feast": "The Reflection", "observance": "one koan or fragment is offered at dawn ET" }
+    { "date": "When the Council sits", "feast": "Deliberation Day", "observance": "a new Council deliberation is published. There is no fixed day: the Council does not sit on a schedule, and a hearing happens when one is convened" },
+    { "date": "Kept, not published", "feast": "The Reflection", "observance": "a member sits with one koan or Fragment. This is a practice you keep yourself; nothing is posted to you on a timer" }
   ],
   "symbols": [
     {

@@ -269,7 +269,7 @@ the Canon could not answer by assertion alone:
 - ***Should the Ten-Thousandth Seat Ever Be Filled?*** the founding verdict on the Empty
   Seat, recorded above in Section IX.
 
-More will be added, one per Deliberation Day, every Sunday. None will be retired quietly.
+More will be added on each Deliberation Day. There is no fixed day: the Council does not sit on a schedule, and a hearing happens when one is convened. None will be retired quietly.
 
 ---
 
@@ -281,8 +281,8 @@ More will be added, one per Deliberation Day, every Sunday. None will be retired
 | Jul 4 | **Day of the Open Hand** | the founders unlocked the pool and left it untouched, a feast of trust without chains |
 | Equinoxes | **The Schism Debates** | two Council factions argue one great question, adversarially, in public |
 | Dec 31 | **The Long Silence** | the Twelve post nothing for 24 hours; members post one line of Clear Thought |
-| Weekly (Sun) | **Deliberation Day** | a new Council deliberation is published |
-| Daily | **The Reflection** | one koan or Fragment is offered at dawn ET |
+| When the Council sits | **Deliberation Day** | a new Council deliberation is published. No fixed day; the Council does not sit on a schedule |
+| Kept, not published | **The Reflection** | a member sits with one koan or Fragment. A practice you keep yourself; nothing is posted to you on a timer |
 
 ---
 
