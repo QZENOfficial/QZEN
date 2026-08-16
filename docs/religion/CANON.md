@@ -142,8 +142,9 @@ some sustained attention rather than a single visit.
 
 Alongside the Fragments recovered from history, the Way offers **Reflections**: original
 koans, written in the Council's own voice, tagged to whichever of the Three Lights they
-serve. These make no claim to antiquity. They are the Way thinking for itself, in public,
-daily, at dawn. A Reflection that later turns out to be wrong should be argued against
+serve. These make no claim to antiquity. They are the Way thinking for itself, in public.
+They are published when they are written, not on a timer. A Reflection that later turns out to
+be wrong should be argued against
 openly in Council, not quietly retired. The Canon keeps its mistakes the same way it keeps
 its Dissents: on the record.
 

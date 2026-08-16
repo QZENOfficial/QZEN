@@ -21,6 +21,57 @@
 
 <br/>
 
+## v1.3.0 (August 16, 2026): The Era of the Petition
+
+<table>
+<tr>
+<td width="60" align="center">&#x2705;</td>
+<td>
+
+**The Council now takes questions.** qzen.dev was rebuilt around one loop: anyone may petition
+the Twelve, the hearing happens in public, and the verdict publishes permanently with the
+dissent preserved word for word. No wallet and no account are needed to ask.
+
+**Twenty deliberations published**, up from four. Every transcript is in this repository under
+`website/data/deliberations/`, byte for byte what the site renders.
+
+</td>
+</tr>
+<tr>
+<td width="60" align="center">&#x1F4DD;</td>
+<td>
+
+**Corrections, recorded rather than quietly fixed.** Three claims on the site and in these docs
+were not true and have been repaired:
+
+- The canon promised a deliberation every Sunday and a Reflection every dawn. Neither ever
+  happened. The calendar now reads "When the Council sits" and "Kept, not published", because
+  the Council does not sit on a schedule and nothing here runs unattended.
+- The deliberation pipeline document described a weekly automation as a source of questions. That
+  workflow was built but never executed a single run, and it is not part of the pipeline.
+- This repository promised it held every published transcript. It held four while the site served
+  twenty. All twenty are now here.
+
+</td>
+</tr>
+<tr>
+<td width="60" align="center">&#x1F50D;</td>
+<td>
+
+**Where the supply actually is** is now stated on qzen.dev/standing rather than left for a reader
+to discover: 99.9425% of QZEN sits in the wallet that deployed the contract, with both addresses
+published so anyone can check the history themselves.
+
+</td>
+</tr>
+</table>
+
+<br/>
+
+---
+
+<br/>
+
 ## v1.2.0 (May 31, 2026)
 
 <table>
