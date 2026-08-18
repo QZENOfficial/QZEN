@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 100 100" role="img" aria-labelledby="title desc">
+  <title id="title">QZEN Three Lights</title>
+  <desc id="desc">Three flame-shaped lights arranged around a violet-to-cyan ring on a dark background.</desc>
+  <defs>
+    <linearGradient id="ring" x1="20" y1="18" x2="82" y2="82" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#8b5cf6"/>
+      <stop offset="0.55" stop-color="#a855f7"/>
+      <stop offset="1" stop-color="#22d3ee"/>
+    </linearGradient>
+  </defs>
+  <rect width="100" height="100" fill="#0a0a0f"/>
+  <circle cx="50" cy="50" r="32" fill="none" stroke="url(#ring)" stroke-width="2.4"/>
+  <g transform="translate(50 18)">
+    <path d="M0-9C4-3 5 2 0 9C-5 2-4-3 0-9Z" fill="#8b5cf6"/>
+  </g>
+  <g transform="translate(22.287 66)">
+    <path d="M0-9C4-3 5 2 0 9C-5 2-4-3 0-9Z" fill="#8b5cf6"/>
+  </g>
+  <g transform="translate(77.713 66)">
+    <path d="M0-9C4-3 5 2 0 9C-5 2-4-3 0-9Z" fill="#22d3ee"/>
+  </g>
+</svg>
