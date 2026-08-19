@@ -79,24 +79,39 @@ Active contributors who help build the ecosystem. Recognized through community c
 Trusted community members who help moderate and guide governance processes.
 
 ### The Founder
-Kaelar Zen. Advisory role only. No veto power. The architect guides but does not control.
+Kaelar Zen. Advisory by intent: no veto power is written into anything, and the architect guides
+rather than controls.
+
+**Stated plainly, because the sentence above is easy to over-read:** the founder currently holds
+99.9425% of supply and there is no contract preventing anything. Any restraint here is self imposed
+and depends on character rather than code, which is exactly why the concentration is disclosed on
+the site rather than described as solved. A multi signature Safe under a published policy is the
+fix and has not been done.
 
 ---
 
 ## Treasury Management
 
-**Community Treasury:** 20% of total supply (20,000,000 QZEN)
+> **The treasury does not exist yet. Corrected 2026-08-19.**
+>
+> There is no treasury wallet and nothing has been transferred to one. 99.9425% of supply sits in
+> the wallet that deployed the contract, read from Base on 2026-08-19 and disclosed at
+> [qzen.dev/standing](https://qzen.dev/standing). Everything in this section is intent.
 
-**Usage:**
+**Community Treasury (intended):** 20% of total supply (20,000,000 QZEN). Not funded.
+
+**Intended usage:**
 - Ecosystem development grants
 - Community events and rewards
 - Strategic partnerships
 - Infrastructure improvements
 
-**Controls:**
-- Multi-sig wallet (planned)
-- Governance vote required for large expenditures
-- Quarterly transparency reports
+**Intended controls:**
+- Multi-sig wallet. Not created
+- Governance vote required for large expenditures. There is no voting mechanism yet
+- Transparency reporting. **No cadence is promised here on purpose:** the project published a
+  weekly cadence once and did not keep it, so a quarterly report is not committed to until
+  something exists to report on
 
 ---
 

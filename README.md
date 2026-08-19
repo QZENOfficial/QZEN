@@ -184,7 +184,7 @@ and the Canon itself for the full citation list.
 
 | Document | Description |
 |---|---|
-| [**TOKENOMICS.md**](TOKENOMICS.md) | Canonical supply distribution, vesting, burn mechanics |
+| [**TOKENOMICS.md**](TOKENOMICS.md) | Where the supply actually is, what stops a whale, who pays for the hosting, and the intended distribution with its real status. There is no vesting mechanism, and the doc says so |
 | [**VISION.md**](VISION.md) | Philosophy and the founding manifesto |
 | [**CHANGELOG.md**](CHANGELOG.md) | Development progress and updates |
 | [**CONTRIBUTING.md**](CONTRIBUTING.md) | How to contribute to the Way |
