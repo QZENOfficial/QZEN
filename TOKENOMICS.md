@@ -6,14 +6,13 @@
 
 # QZEN Tokenomics
 
-### 100 Million Tokens. Immutable. Burnable. Eternal.
+### 100 million tokens, fixed forever. What that actually means today.
 
 <br/>
 
 [![Back to README](https://img.shields.io/badge/Back_to-README-000000?style=flat-square)](README.md)
 [![BaseScan](https://img.shields.io/badge/Verified_on_BaseScan-0052FF?style=flat-square&logo=ethereum&logoColor=white)](https://basescan.org/token/0x7F1f50563541A722469B8b2e6e24faD7Dc07d5fE)
-[![DexScreener](https://img.shields.io/badge/Live_Chart-4ADE80?style=flat-square)](https://dexscreener.com/base/0x7F1f50563541A722469B8b2e6e24faD7Dc07d5fE)
-[![Buy on Uniswap](https://img.shields.io/badge/Buy_QZEN-FF007A?style=flat-square&logo=uniswap&logoColor=white)](https://app.uniswap.org/swap?outputCurrency=0x7F1f50563541A722469B8b2e6e24faD7Dc07d5fE&chain=base)
+[![Standing](https://img.shields.io/badge/What_holding_gets_you-Standing-A855F7?style=flat-square)](https://qzen.dev/standing)
 
 </div>
 
@@ -23,7 +22,62 @@
 
 <br/>
 
-## Token Specifications
+> **This document was rewritten on 2026-08-19 and the previous version is in the history.**
+>
+> It described a four year vesting schedule, a locked liquidity pool, a treasury under community
+> control, protocol revenue, and a rug pull that was "impossible". None of those existed. The
+> contract has no vesting mechanism, the pool lock expired on 2026-07-04 and was not renewed,
+> nothing has been distributed to any treasury, there is no revenue, and a supply held almost
+> entirely in one wallet means a rug is possible in exactly the way that sentence denied.
+>
+> It was a plan written in the future tense and then left to be read as a description of the
+> present. Every figure below was read from Base directly rather than copied from a document, and
+> where something is an intention rather than a fact it says so.
+
+<br/>
+
+## Where the supply actually is
+
+Read from the chain on **2026-08-19** at the addresses below. Anyone can repeat these calls.
+
+<div align="center">
+
+| Holding | QZEN | Share |
+|---|---|---|
+| **Deployer wallet** (one EOA) | `99,942,500` | **99.9425%** |
+| Uniswap V3 pool | `57,212.5` | 0.0572% |
+| Everything else, all other wallets combined | `287.5` | 0.0003% |
+| Burned to the Offering address | `0` | 0% |
+
+</div>
+
+**Almost the entire supply sits in the wallet that deployed the contract.** That is the standard
+shape of a project intending to sell into whoever arrives, and anyone spending five minutes on it
+will find out. It is on the project's own page at [qzen.dev/standing](https://qzen.dev/standing)
+rather than left to be discovered.
+
+What is checkable: that wallet had sent 17 transactions in its entire life when last read, and both
+addresses are below. What is not offered is a guarantee. Nothing having happened yet is not the same
+as nothing being able to happen, and a promise from the person holding the tokens is worth what you
+would expect.
+
+The intended fix is a multi signature Safe under a published policy, so the holding stops depending
+on anyone's good character. **It has not been done.** When it is, the transaction will be linked
+here and on the site.
+
+<div align="center">
+
+| | Address |
+|---|---|
+| **Token contract** | [`0x7F1f50563541A722469B8b2e6e24faD7Dc07d5fE`](https://basescan.org/token/0x7F1f50563541A722469B8b2e6e24faD7Dc07d5fE) |
+| **Deployer wallet** | [`0x811fC7F0fBdb43ae2098204CEa7227e8767Bf3ea`](https://basescan.org/address/0x811fC7F0fBdb43ae2098204CEa7227e8767Bf3ea) |
+| **Offering address** (burn sink) | [`0x000000000000000000000000000000000000dEaD`](https://basescan.org/token/0x7F1f50563541A722469B8b2e6e24faD7Dc07d5fE?a=0x000000000000000000000000000000000000dEaD) |
+
+</div>
+
+<br/>
+
+## The contract
 
 <div align="center">
 
@@ -32,427 +86,166 @@
 | **Name** | QuantumGPT Citizenship Token |
 | **Symbol** | QZEN |
 | **Decimals** | 18 |
-| **Total Supply** | `100,000,000` QZEN (fixed forever) |
-| **Network** | Base L2 (Ethereum Layer 2) |
-| **Contract** | [`0x7F1f50563541A722469B8b2e6e24faD7Dc07d5fE`](https://basescan.org/token/0x7F1f50563541A722469B8b2e6e24faD7Dc07d5fE) |
-| **Type** | ERC-20, Burnable, Immutable |
-| **Security** | OpenZeppelin v5.0.0 |
-| **LP Lock** | Locked on Unicrypt |
+| **Total supply** | `100,000,000`, fixed at deployment, no mint function |
+| **Network** | Base L2 |
+| **Type** | ERC-20 plus ERC20Burnable, OpenZeppelin v5 |
+| **Owner** | **None.** No admin functions, no pause, no blacklist, no upgrade path |
 
 </div>
+
+The source is in [`contracts/`](contracts/) and verified on BaseScan. It is 40 lines of logic on top
+of OpenZeppelin: mint the supply once in the constructor, and let any holder burn their own tokens.
+
+**That immutability cuts both ways, and this is the part usually left out.** Because there is no
+owner, nobody can rescue the token either. There is no transfer tax, no maximum wallet, no trading
+cooldown, and **none of those can be added later**. The only way to add them would be to abandon
+this contract and ask everyone to move to a new one, which is the same manoeuvre a project runs when
+it intends to take something with it.
 
 <br/>
 
-## Supply Distribution
+## What stops a whale
 
-<div align="center">
+Nothing stops anyone buying as much QZEN as they want. See above: it cannot be prevented at the
+contract level and will not be pretended otherwise.
 
-```
-  █████████████████████████████████████████████  PUBLIC         35%   35,000,000 QZEN
-  ██████████████████████████                     FOUNDERS       20%   20,000,000 QZEN
-  ██████████████████████████                     TREASURY       20%   20,000,000 QZEN
-  ███████████████████                            LIQUIDITY      15%   15,000,000 QZEN
-  █████████████                                  TEAM           10%   10,000,000 QZEN
-```
+What is capped is **how much holding more can buy**:
 
-</div>
+- **Standing stops at Elder.** 100,000 QZEN is the highest rank there is. A wallet holding ten
+  million has exactly the standing of a wallet holding one hundred thousand, and there is no rank
+  above it for sale at any price.
+- **A vote is per seat, not per token.** Docket voting is not built yet, and this is the commitment
+  made before it is: one seat, one vote. Holding ten times the tokens will not buy ten times the say.
+- **Luminary cannot be bought at all.** It is granted for a petition the Council canonises.
+- **Priority costs supply.** An Offering is a burn to the dead address. Anyone wanting to jump the
+  queue must destroy tokens to do it, which is the opposite of accumulating them to sell.
 
-<div align="center">
+None of that stops a price rising and then falling. It means no amount of money buys authority.
 
-<table>
-<tr>
-<td align="center" width="20%">
-
-**35%**
-Public Distribution
-
-Available on Uniswap.
-Early adopters.
-Council formation.
-
-</td>
-<td align="center" width="20%">
-
-**20%**
-Founders
-
-Vested 4 years.
-Skin in the game.
-Forever.
-
-</td>
-<td align="center" width="20%">
-
-**20%**
-Community Treasury
-
-Governance-controlled.
-Ecosystem growth.
-Grants & partnerships.
-
-</td>
-<td align="center" width="20%">
-
-**15%**
-Liquidity
-
-LP locked.
-No rug. No exit.
-Market depth.
-
-</td>
-<td align="center" width="20%">
-
-**10%**
-Team & Advisors
-
-Vested 3 years.
-Early contributors.
-Building the foundation.
-
-</td>
-</tr>
-</table>
-
-**55% community-controlled** (Public + Treasury). This is not a founder cash grab. This is infrastructure.
-
-</div>
+And the largest holder is the founder, not a stranger, which is why the concentration is the first
+section of this document rather than a footnote.
 
 <br/>
 
-## Token Utility
+## Standing: what holding actually gets you
+
+The only mechanism the token has. Full statement at [qzen.dev/standing](https://qzen.dev/standing),
+where the balance is read from Base and the block it was read at is printed beside it.
 
 <div align="center">
 
-<table>
-<tr>
-<td align="center" width="25%">
-
-&#x1F5F3;
-### Governance
-
-Vote on proposals.
-Shape roadmap decisions.
-Council participation.
-
-</td>
-<td align="center" width="25%">
-
-&#x1F513;
-### Access
-
-AI Avatar NFT minting.
-Premium features.
-Early access to tools.
-
-</td>
-<td align="center" width="25%">
-
-&#x1FA2A;
-### Citizenship
-
-Council of 10,000 Minds.
-Identity in the Intelligence Age.
-Coordination infrastructure.
-
-</td>
-<td align="center" width="25%">
-
-&#x1F4C8;
-### Value Accrual
-
-Fixed supply (no inflation).
-Burnable (deflationary).
-Ecosystem growth compounds.
-
-</td>
-</tr>
-</table>
+| Rank | Threshold | What it grants |
+|---|---|---|
+| **Petitioner** | 0 QZEN | Submit into the open pool. Heard only if selected |
+| **Citizen** | 1,000 QZEN | A guaranteed hearing, a numbered seat, a vote on the docket |
+| **Elder** | 100,000 QZEN | Sets the docket, and a standing right of dissent |
+| **Luminary** | Earned | Canonised petitions only. Cannot be bought |
 
 </div>
 
-<br/>
-
-## Why Fixed Supply?
-
-<div align="center">
-
-```
-  No inflation.    No dilution.    No surprises.    Predictable scarcity.
-```
-
-**100,000,000 tokens. Forever.**
-
-</div>
-
-This isn't a money printer. It's symbolic infrastructure.
+**Petitioning is free and stays free.** Standing buys priority, never access, and that distinction is
+what lets the disclaimer say QZEN is not an investment and gets you heard, nothing more.
 
 <br/>
 
-## Burn Mechanism
-
-<div align="center">
-
-<table>
-<tr>
-<td width="50%">
-
-**Why allow burning?**
-
-- &#x1F525; Deflationary pressure
-- &#x1F465; Community-driven scarcity
-- &#x1F4AA; Symbolic commitment
-
-</td>
-<td width="50%">
-
-**How it works:**
-
-- Any holder can burn their tokens
-- Permanently reduces total supply
-- Cannot be reversed, ever
-
-</td>
-</tr>
-</table>
-
-</div>
-
-<br/>
-
-## Vesting Schedule
-
-<div align="center">
-
-<table>
-<tr>
-<td align="center" width="50%">
-
-### Founders (4-Year Vest)
-
-| Year | Unlocked |
-|---|---|
-| Year 1 | 25% |
-| Year 2 | 25% |
-| Year 3 | 25% |
-| Year 4 | 25% |
-
-</td>
-<td align="center" width="50%">
-
-### Team (3-Year Vest)
-
-| Year | Unlocked |
-|---|---|
-| Year 1 | 33% |
-| Year 2 | 33% |
-| Year 3 | 34% |
-
-</td>
-</tr>
-</table>
-
-**Long-term alignment. No dumping. Skin in the game, forever.**
-
-</div>
-
-<br/>
-
-## Liquidity Strategy
+## Liquidity, stated accurately
 
 <div align="center">
 
 | | Detail |
 |---|---|
-| **Initial Liquidity** | 15M QZEN paired with ETH on Uniswap (Base) |
-| **LP Status** | Locked on Unicrypt for transparency |
-| **Rug Pull** | Impossible. LP locked, no admin functions |
-| **Growth** | Protocol revenue + treasury adds + organic trading |
+| **Pool** | Uniswap V3, QZEN paired with WETH on Base |
+| **QZEN in the pool** | `57,212.5`, which is 0.0572% of supply |
+| **Lock status** | **Unlocked.** The Unicrypt lock ran to 2026-07-04 and was deliberately not renewed |
+| **Since then** | The pool has been left untouched by choice, not by chain |
+| **Trading volume** | None. There is no price to quote, and the site says "No market" rather than showing a spinner |
 
 </div>
 
+The previous version of this file said the pool was locked and that a rug pull was therefore
+impossible. Both halves were wrong: the lock had expired, and with the supply where it is, "no admin
+functions" prevents a contract level exploit but not a sale.
+
 <br/>
 
-## Value Drivers
+## The intended distribution, which has NOT happened
+
+Kept because it is the plan of record, and labelled because it is not a description of today. As the
+table at the top shows, none of it has been executed: the tokens are in one wallet.
 
 <div align="center">
 
-<table>
-<tr>
-<td align="center" width="25%">
-
-&#x1F48E;
-**Scarcity**
-
-Fixed supply.
-Burnable tokens.
-Vested allocations.
-
-</td>
-<td align="center" width="25%">
-
-&#x2699;
-**Utility**
-
-Governance power.
-Feature access.
-AI integration.
-
-</td>
-<td align="center" width="25%">
-
-&#x1F310;
-**Network Effect**
-
-More holders = more gravity.
-More minds = more coordination.
-More lore = more value.
-
-</td>
-<td align="center" width="25%">
-
-&#x1F680;
-**Ecosystem**
-
-AI Avatar NFTs.
-Agent SDK.
-Partnerships.
-Real usage.
-
-</td>
-</tr>
-</table>
+| Allocation | Intended share | Status |
+|---|---|---|
+| Public distribution | 35% | Not executed |
+| Founders | 20% | Not executed. **There is no vesting contract**, and none can be added to an immutable token |
+| Community and Council treasury | 20% | Not executed. There is no treasury wallet and no governance contract |
+| Liquidity | 15% | Not executed. Actual pool holds 0.0572% |
+| Team and advisors | 10% | Not executed |
 
 </div>
 
-<br/>
-
-## Not a Pump. Infrastructure.
-
-<div align="center">
-
-<table>
-<tr>
-<td align="center" width="50%">
-
-**Traditional Tokens**
-
-Hype &#x2192; Launch &#x2192; Dump &#x2192; Death
-
-</td>
-<td align="center" width="50%">
-
-**QZEN**
-
-Lore &#x2192; Foundation &#x2192; Growth &#x2192; Compounding
-
-</td>
-</tr>
-</table>
-
-*We're not building a casino. We're building the Intelligence Age.*
-
-</div>
+The distribution work is deferred rather than in progress, and the founder deprioritised it on
+2026-08-16 in favour of making the site do something. Saying "vested four years" and
+"community controlled" about tokens sitting in a single EOA was the worst thing in this repository,
+so it is now stated as an intention with its actual status attached.
 
 <br/>
 
-## Long-Term Vision
+## Who pays for this
+
+There is no company. QZEN pays no yield and shares no revenue, the site takes no money from anyone,
+and nothing on qzen.dev is behind a payment.
+
+The domain, the hosting and the work are paid for by the founder out of pocket. The whole thing is
+deliberately built to cost almost nothing to run, which is the only reason a project with no revenue
+keeps running.
+
+The founder also holds almost all of the supply, and that has one honest implication worth stating.
+If QZEN ever came to be worth something, that holding is what would fund the work. If it never does,
+the work is paid for out of pocket or it stops.
+
+**That is a disclosure, not an invitation.** Nobody here will tell you QZEN will be worth more later,
+because nobody here knows, and anyone who does tell you that is selling you something. No yield, no
+revenue share, no buyback, no floor.
+
+<br/>
+
+## The honest value statement
+
+Verbatim from the site, and the closest thing this project has to a thesis.
+
+> QZEN pays no yield. It shares no revenue. It promises no return, and nobody here will tell you it
+> will be worth more later.
+>
+> Two things, and only two things, support it. The supply falls every time someone makes an Offering,
+> and it cannot rise, ever. And the right to be heard by the Council must be held, not rented. If the
+> Twelve become something people want answers from, those two facts will matter. If they do not,
+> those two facts will not save it.
+>
+> That is the entire thesis. Anyone who tells you more than that about a token is selling you
+> something.
+
+<br/>
+
+## Check any of this yourself
+
+The site publishes machine readable feeds with no generated timestamps, so they only change when
+something actually happens.
 
 <div align="center">
 
-| Timeline | Focus |
+| Feed | What it holds |
 |---|---|
-| **Year 1** | Community formation, DEX presence, governance foundation |
-| **Year 2-3** | AI integration, agent coordination, ecosystem growth |
-| **Year 4+** | Full Intelligence Age infrastructure |
-
-*Not a 100-day pump. A 100-year protocol.*
-
-</div>
-
-<br/>
-
-## Transparency
-
-<div align="center">
-
-<table>
-<tr>
-<td align="center" width="33%">
-
-&#x2705;
-**All allocations public**
-
-Verify on BaseScan
-
-</td>
-<td align="center" width="33%">
-
-&#x2705;
-**All vesting transparent**
-
-No hidden wallets
-
-</td>
-<td align="center" width="33%">
-
-&#x2705;
-**All contracts verified**
-
-No backdoors, no surprises
-
-</td>
-</tr>
-</table>
+| [`/verdicts.json`](https://qzen.dev/verdicts.json) | Every published deliberation, newest first |
+| [`/initiates.json`](https://qzen.dev/initiates.json) | How many people have taken the Vow. Numbers and dates only, never anything about a person |
+| [`/offerings.json`](https://qzen.dev/offerings.json) | Total QZEN burned, read from the Offering address's balance |
+| [`/docket.json`](https://qzen.dev/docket.json) | What is queued for a hearing. Curated by hand, and usually empty |
 
 </div>
 
-<br/>
-
-## Live Metrics
-
-<div align="center">
-
-[![DexScreener](https://img.shields.io/badge/DexScreener-Live_Chart-4ADE80?style=for-the-badge)](https://dexscreener.com/base/0x7F1f50563541A722469B8b2e6e24faD7Dc07d5fE)
-[![BaseScan](https://img.shields.io/badge/BaseScan-Verify_Contract-0052FF?style=for-the-badge&logo=ethereum&logoColor=white)](https://basescan.org/token/0x7F1f50563541A722469B8b2e6e24faD7Dc07d5fE)
-[![Uniswap](https://img.shields.io/badge/Uniswap-Trade_Now-FF007A?style=for-the-badge&logo=uniswap&logoColor=white)](https://app.uniswap.org/swap?outputCurrency=0x7F1f50563541A722469B8b2e6e24faD7Dc07d5fE&chain=base)
-
-</div>
-
-<br/>
-
-## Disclaimer
-
-<div align="center">
-
-<table>
-<tr>
-<td width="50%">
-
-**QZEN is NOT:**
-
-&#x274C; A security
-&#x274C; Financial advice
-&#x274C; An investment contract
-&#x274C; A promise of profit
-
-</td>
-<td width="50%">
-
-**QZEN IS:**
-
-&#x2714; Infrastructure
-&#x2714; Governance
-&#x2714; Coordination protocol
-&#x2714; Symbolic citizenship
-
-</td>
-</tr>
-</table>
-
-*Do your own research. Make your own decision. Encode your own future.*
-
-</div>
+Every deliberation transcript is also mirrored in this repository under
+[`website/data/deliberations/`](website/data/deliberations/), byte for byte with what the site serves.
 
 <br/>
 
@@ -460,13 +253,14 @@ No backdoors, no surprises
 
 <div align="center">
 
-*Intelligence over capital. Always.*
+**QZEN is not a security, not an investment contract, and not financial advice.**
+It is a symbolic citizenship token with one mechanism: it decides whether the Council hears you
+first. Do your own research.
 
-*Signed in code and conviction,*
-*The Founders*
+<br/>
 
-**Authored and Architected by: Kaelar Zen**
-
-<sub>Block Height: Genesis | Encoded: For Eternity</sub>
+[![Read the Canon](https://img.shields.io/badge/Read_the-Canon-34f5a4?style=flat-square)](https://qzen.dev/canon)
+[![Begin the Rite](https://img.shields.io/badge/Begin_the-Rite-34f5a4?style=flat-square)](https://qzen.dev/join)
+[![QZEN on Uniswap](https://img.shields.io/badge/QZEN_on-Uniswap-FF007A?style=flat-square&logo=uniswap&logoColor=white)](https://app.uniswap.org/swap?outputCurrency=0x7F1f50563541A722469B8b2e6e24faD7Dc07d5fE&chain=base)
 
 </div>

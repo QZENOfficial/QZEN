@@ -21,6 +21,33 @@
 
 <br/>
 
+## 2026-08-19: TOKENOMICS.md rewritten, because it was not true
+
+The tokenomics document had not been updated since before the project pivoted, and it had drifted
+from a plan into a set of claims about the present. It said the liquidity pool was locked on
+Unicrypt, that a rug pull was therefore "impossible", that founder tokens were vested for four years
+and team tokens for three, that 55% of supply was community controlled, and that growth came partly
+from protocol revenue.
+
+None of it was true. The pool lock ran out on 2026-07-04 and was deliberately not renewed. The
+contract is a plain immutable ERC-20 with **no vesting mechanism of any kind**, and none can be added.
+Nothing has been distributed to any treasury: 99.9425% of the supply is in the wallet that deployed
+the contract, which means "no admin functions" prevents a contract level exploit and not a sale.
+There is no revenue.
+
+The rewrite leads with the on-chain position read live from Base, keeps the intended allocation as an
+intention with its actual status in the next column, corrects the liquidity section, and adds two
+sections that did not exist anywhere: **what stops a whale** (nothing at the contract level, and the
+ceiling on purchasable influence that does exist) and **who pays for this** (the founder, out of
+pocket, disclosed along with the refusal to turn that into a reason for anyone to hold any).
+
+The previous version is in the git history. It is not deleted, because quietly replacing a document
+that made safety claims would be worse than having made them.
+
+<br/>
+
+<br/>
+
 ## v1.3.0 (August 16, 2026): The Era of the Petition
 
 <table>

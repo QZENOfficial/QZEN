@@ -149,6 +149,7 @@ mocks any living faith.
 | **Total Supply** | `100,000,000` QZEN (fixed forever) |
 | **Type** | ERC-20, Burnable, Immutable: no admin functions, no backdoors |
 | **LP** | Unlocked July 4, 2026 by design, the Day of the Open Hand (left untouched, no re-lock) |
+| **Concentration** | **99.9425% sits in the single wallet that deployed the contract**, read from Base 2026-08-19. Disclosed rather than discovered: [qzen.dev/standing](https://qzen.dev/standing) |
 
 </div>
 
@@ -164,7 +165,9 @@ mocks any living faith.
    honored more.
 
 **What it never does:** no staking-yield promises, no price talk, no "utility" that implies
-profit. See [`TOKENOMICS.md`](TOKENOMICS.md) for the full allocation.
+profit. Nobody here will tell you QZEN will be worth more later. See
+[`TOKENOMICS.md`](TOKENOMICS.md) for where the supply actually is, what stops a whale, who pays for
+the hosting, and the intended allocation with its real status attached.
 
 <br/>
 
